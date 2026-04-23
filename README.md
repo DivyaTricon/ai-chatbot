@@ -15,28 +15,16 @@ A simple chatbot application that uses the Google Generative AI (Gemini) API to 
    ```bash
    python -m venv venv
 
-3. **Activate the virtual environment**:
-   - On Windows:
-     ```bash
-     venv\Scripts\activate
-     ```
-   - On macOS/Linux:
-     ```bash
-     source venv/bin/activate
-     ```
 
-4. **Install dependencies**:
-   ```bash
-   pip install groq python-dotenv
-   ```
+     ```
+3. Install dependencies
 
-5. **Set up your API key**:
-   - Create a `.env` file in the project root (if it doesn't exist)
-   - Add your Groq API key:
-     ```
-     GROQ_API_KEY=your_api_key_here
-     ```
-   - Replace `your_api_key_here` with your actual API key from Groq.
+4. Set up your API key:
+
+    Create a .env file in the project root (if it doesn't exist)
+    Add your Google API key:
+    GOOGLE_API_KEY=your_api_key_here
+    Replace your_api_key_here with your actual API key.
 
 ## Running the Chatbot
 
@@ -44,19 +32,12 @@ A simple chatbot application that uses the Google Generative AI (Gemini) API to 
 
 2. Run the chatbot:
    ```bash
-   python chatbot.py
+   python My_AI_Bot.py
    ```
 
 3. Start chatting! Type your messages and press Enter. The bot will respond with helpful answers.
 
-4. Install dependencies
 
-5. Set up your API key:
-
-    Create a .env file in the project root (if it doesn't exist)
-    Add your Google API key:
-    GOOGLE_API_KEY=your_api_key_here
-    Replace your_api_key_here with your actual API key.
 
 
 
